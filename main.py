@@ -1,34 +1,27 @@
-# Meu primeiro projeto Python!!!
-#
-# print() = comando de saida
-print("Ola mundo!\n")
+# Aula 02 - 2022/10/26
 
-# Quando quiser guardar uma String! (frase)
-nome = "Joao Paulo Tenorio"
+# Comando input(): quero permitir que 
+# O usuário digite algo...
+nome = input("Digite seu nome: ")
 
-# Quando quiser guardar um número inteiro 
-idade = 24
+# Pede a idade para o usuário "Qual sua idade?"
+idade = input("Digite sua idade: ")
+idade1 = int(input("Digite sua idade: "))
 
-# Exibir o meu nome (que está dentro da variável nome)
-print(nome+"\n")
+# Comando de saída... exibir na tela
+print(f"Boa noite! Seu nome é {nome}")
+# Exiba "Sua idade é ..."
+print("E sua idade é {}".format(idade))
 
-# Quando quiser exibir a frase "Minha idade é " completando com o conteúdo da variável idade
-# print("Minha idade é "+nome)
-# print("Minha idade é ", idade)
-# str converte numero para string no momento da impressao, atraves da contatenação o +
-print("Minha idade é "+str(idade))
-# f""{} conversao de numero para string no momento da impressao
-print(f"\nMinha idade é {idade}\n")
-# " {}".format(numero) converte para string no momento da impressao
-print("Minha idade é {}\n".format(idade))
+# E se eu quisesse mostrar o DOBRO da idade informada?
+dobro = idade * 2
+print("O dobro da idade informada é {}".format(dobro))
 
-# Quandp quiser exibir "Meu nome é ... e tenho ... anos..." trocando pelas variáveis nome e idade
-print("Meu nome é {} e tenho {} anos".format(nome, idade))
+dobro1 = idade1 * 2
+print("O dobro da idade informada é {}".format(dobro1))
 
+# Estrutura condicional - o famoso "SE" (if)
+# Se a pessoa for maior de idade, mostre "Você é maio de idade, ótimo! Já pode beber ou dirigir"
+if idade >= 18:
+  print("Você é maio de idade, ótimo! Já pode beber ou dirigir")
 
-
-
-''' 
-Comentario em bloco
-
-'''
