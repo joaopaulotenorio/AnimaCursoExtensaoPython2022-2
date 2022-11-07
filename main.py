@@ -1,6 +1,6 @@
 # Aula 02 - C - 2022/10/26 
 
-# Exemplo de laço (loop)
+# Exemplo de laço (Loop)
 
 # Se eu quisesse exibir números de 1 a 10?
 print("Aqui mostramos de maneira 'rústica'")
@@ -20,5 +20,6 @@ numero = 1
 print(numero)
 numero = numero + 1
 print(numero)
+
 
 
