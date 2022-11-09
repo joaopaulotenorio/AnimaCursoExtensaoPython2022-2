@@ -11,7 +11,8 @@ contador = 1
 while(contador <= 1000):
   print(contador)
   contador = contador+1 #contador +=1
-
+print("\nLaços for e while \n")
+  
 # Laço for (python for = for each)
 fruta = "morango"
 print(fruta)
@@ -42,9 +43,12 @@ print(frutas)
 
 print(frutas[0]) # 
 
+print("\nExemplo das frutas com while..\n")
+
 # Imprimir a lista de frutas uma a uma ate o tamanho
 i = 0
-while(i<4):
+while(i<len(frutas)):
   print(frutas[i])
+  i = i + 1
 
 
