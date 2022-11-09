@@ -40,4 +40,5 @@ frutas.append("manga")
 print(len(frutas))
 print(frutas)
 
+print(frutas[0]) # 
 
