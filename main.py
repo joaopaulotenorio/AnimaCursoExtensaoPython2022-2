@@ -1,27 +1,43 @@
-# Aula 02 - C - 2022/10/26 
+# Aula 03 - 2022/10/26 
 
 # Exemplo de laço (Loop)
 
-# Se eu quisesse exibir números de 1 a 10?
-print("Aqui mostramos de maneira 'rústica'")
-print("1")
-print("2")
-print("3")
-print("4")
-print("5")
-print("6")
-print("7")
-print("8")
-print("9")
-print("10")
+print("Início da aula (09/11/2023)")
 
-print("Aqui é do jeito certo...")
-numero = 1
-print(numero)
-numero = numero + 1
-print(numero)
+contador = 1
 
-# numero += 1
-# print(numero)
-# print(numero + 1)
+# Exibir de 1 até 10 repetidamente
+
+while(contador <= 1000):
+  print(contador)
+  contador = contador+1 #contador +=1
+
+# Laço for (python for = for each)
+fruta = "morango"
+print(fruta)
+
+fruta1 = "morango"
+fruta2 = "laranja"
+fruta3 = "pêra"
+
+# Lista
+frutas = ["morango", "laranja", "pêra"]
+
+# mostra todas
+print(frutas)
+# quero exibir a 3a. fruta (pêra)
+print(frutas[2])
+
+print(frutas[1]) # 
+print(frutas[0]) #
+
+# Exibir quantas frutas tem na minha lista?
+print(len(frutas)) # length = tamanho
+
+# Quero incluir uma fruta nova
+frutas.append("manga")
+
+print(len(frutas))
+print(frutas)
+
 
