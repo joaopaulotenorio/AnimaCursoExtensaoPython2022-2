@@ -42,3 +42,9 @@ print(frutas)
 
 print(frutas[0]) # 
 
+# Imprimir a lista de frutas uma a uma ate o tamanho
+i = 0
+while(i<4):
+  print(frutas[i])
+
+
