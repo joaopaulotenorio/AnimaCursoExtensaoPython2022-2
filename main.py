@@ -25,5 +25,10 @@ preco = 299
 imposto = calcular_imposto(preco)
 print(imposto)
 
+# Explicação de variável local x global
+print(preco) #???
+preco_produto = 100
+print(preco_produto) #???
+
 
 
