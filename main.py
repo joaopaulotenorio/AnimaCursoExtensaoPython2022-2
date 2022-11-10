@@ -1,54 +1,19 @@
-# Aula 03 - 2022/10/26 
+# Aula 03 - B - 2022/11/09 
 
-# Exemplo de laço (Loop)
+# Exemplos de Funções
 
-print("Início da aula (09/11/2023)")
+# Criação de funções
 
-contador = 1
+preco = 1999.90
 
-# Exibir de 1 até 10 repetidamente
+# Calcular apenas 5% de imposto, guardar na variável imposto e exibir na tela
+imposto = preco * 0.05
+print(imposto)
 
-while(contador <= 1000):
-  print(contador)
-  contador = contador+1 #contador +=1
-print("\nLaços for e while \n")
-  
-# Laço for (python for = for each)
-fruta = "morango"
-print(fruta)
+preco2 = 100
+imposto2 = preco2 * 0.05
+print(imposto2)
 
-fruta1 = "morango"
-fruta2 = "laranja"
-fruta3 = "pêra"
-
-# Lista
-frutas = ["morango", "laranja", "pêra"]
-
-# mostra todas
-print(frutas)
-# quero exibir a 3a. fruta (pêra)
-print(frutas[2])
-
-print(frutas[1]) # 
-print(frutas[0]) #
-
-# Exibir quantas frutas tem na minha lista?
-print(len(frutas)) # length = tamanho
-
-# Quero incluir uma fruta nova
-frutas.append("manga")
-
-print(len(frutas))
-print(frutas)
-
-print(frutas[0]) # 
-
-print("\nExemplo das frutas com while..\n")
-
-# Imprimir a lista de frutas uma a uma ate o tamanho
-i = 0
-while(i<len(frutas)):
-  print(frutas[i])
-  i = i + 1
+# Criar uma função calcular_imposto() que calcula um imposto de 5% e retorno à quem pediu...
 
 
