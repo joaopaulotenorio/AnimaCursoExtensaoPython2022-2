@@ -2,7 +2,7 @@
 
 # Exemplos de laços (Loops) e Listas (while e for)
 
-print("Início da aula (09/11/2023)")
+print("Início da Aula 03 - A - (09/11/2023)\n")
 
 contador = 1
 

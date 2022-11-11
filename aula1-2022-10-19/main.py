@@ -3,6 +3,9 @@
 # Meu primeiro projeto Python!!!
 #
 # print() = comando de saida
+
+print("Início da aula 01 - (19/10/2022)\n")
+
 print("Ola mundo!\n")
 
 # Quando quiser guardar uma String! (frase)

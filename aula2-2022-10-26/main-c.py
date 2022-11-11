@@ -2,6 +2,8 @@
 
 # Exemplo de laço (Loop)
 
+print("Início da aula 02 - C - (26/10/2022)\n")
+
 # Se eu quisesse exibir números de 1 a 10?
 print("Aqui mostramos de maneira 'rústica'")
 print("1")

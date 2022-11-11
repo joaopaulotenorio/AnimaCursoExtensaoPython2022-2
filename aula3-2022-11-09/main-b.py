@@ -2,6 +2,8 @@
 
 # Exemplos de Funções
 
+print("Início da Aula 03 - B - (09/11/2023)\n")
+
 # Criação de funções
 
 preco = 1999.90

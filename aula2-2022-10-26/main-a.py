@@ -1,5 +1,7 @@
 # Aula 02 - A - 2022/10/26 
 
+print("Início da aula 02 - A - (26/10/2022)\n")
+
 # Comando input(): quero permitir que 
 # O usuário digite algo...
 nome = input("Digite seu nome: ")
