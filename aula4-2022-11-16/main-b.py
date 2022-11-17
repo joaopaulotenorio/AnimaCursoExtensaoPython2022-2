@@ -1,6 +1,6 @@
 # Aula 04 - B - 2022/11/16 
 
-# Banco de Dados - Cont...
+# Banco de Dados - Insert ou Inserção de Dados no Banco.
 
 # 1o. Passo: Importar a biblioteca sqlite3
 import sqlite3
